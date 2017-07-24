@@ -1,11 +1,11 @@
-package com.kun.guava;
+package com.kun.guava.multiset;
 import java.util.Iterator;
 import java.util.Set;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 
-public class tryMultiset {
+public class GuavaTester {
 
     public static void main(String args[]) {
 
