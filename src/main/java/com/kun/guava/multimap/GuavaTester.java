@@ -37,5 +37,9 @@ public class GuavaTester {
 
         // interators
         map.asMap().entrySet().forEach(it -> System.out.println(it.getKey() + "=" + it.getValue()) );
+
+        // size vs unique size
+        System.out.println("Size of map: " + map.size());
+        System.out.println("size of unique key: " + map.keySet().size());
     }
 }
