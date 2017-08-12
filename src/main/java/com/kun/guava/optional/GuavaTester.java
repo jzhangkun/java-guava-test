@@ -20,6 +20,10 @@ public class GuavaTester {
         Optional<Integer> b = Optional.of(value2);
 
         System.out.println(guavaTester.sum(a,b));
+
+        // java 1.8
+        java.util.Optional<Integer> x = java.util.Optional.of(value1);
+
     }
 
     public Integer sum(Optional<Integer> a, Optional<Integer> b) {
