@@ -88,7 +88,7 @@ public class GuavaTester {
 
         Maps.newHashMap();
         Maps.newLinkedHashMap();
-        Maps.newEnumMap();
+        //Maps.newEnumMap();
 
 
 
